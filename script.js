@@ -5,6 +5,7 @@ function add(){
     if(!num2){
         alert("Enter Max-Value First");
         document.querySelector("#a").value="";
+        return;
     }
     if(num1>num2){
         alert("Input-Value can't be greater than Max-Value");
