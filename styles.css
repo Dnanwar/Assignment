@@ -1,0 +1,57 @@
+input{
+    display: block;
+    border: none;
+    background-color: #D9D9D9;
+    margin: 30px;
+    margin-right: 50px;
+    height: 30px;
+}
+
+.inputs{
+    display: inline-block;
+    max-height: inherit;
+    height: 100%;
+    position: relative;
+    bottom: 75px;
+}
+button{
+    width: 10px;
+    height: 10px;
+}
+.bar{
+    display: inline-block;
+    height: 170px;
+    margin: 20px;  
+    position: relative; 
+}
+.bar-space{
+    max-height:inherit;
+    height: 100%;
+    width: 35px;
+    background-color: #6EA3F2;
+    
+}
+.bar-fill{
+    max-height: inherit;
+    width: 35px;
+    height: 50%;
+    background-color: #E4EBF5;
+    
+}
+body{
+    text-align: center;
+    margin-top: 200px;
+    background-color: #FBF8F8;
+}
+h1{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+p{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    display: inline-block;
+    position: relative;
+    right: 40px;
+
+}
