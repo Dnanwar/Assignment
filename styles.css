@@ -8,11 +8,9 @@ input{
 }
 
 .inputs{
-    display: inline-block;
-    max-height: inherit;
-    height: 100%;
-    position: relative;
-    bottom: 75px;
+    display: inline;
+    float:left;
+
 }
 button{
     width: 10px;
@@ -23,20 +21,23 @@ button{
     height: 170px;
     margin: 20px;  
     position: relative; 
+    float: right;
+    text-align: center;
 }
 .bar-space{
     max-height:inherit;
     height: 100%;
     width: 35px;
+    margin: 0 auto 0 auto;
     background-color: #6EA3F2;
-    
+    display: block;
 }
 .bar-fill{
     max-height: inherit;
     width: 35px;
     height: 50%;
     background-color: #E4EBF5;
-    
+    display: block;
 }
 body{
     text-align: center;
@@ -51,7 +52,7 @@ p{
     font-size: 0.8rem;
     font-family: sans-serif;
     display: inline-block;
-    position: relative;
-    right: 40px;
-
+}
+.container{
+    display: inline-block;
 }
